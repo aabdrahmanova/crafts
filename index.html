@@ -1,4 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>The New Craftsmen</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css">
@@ -8,14 +12,16 @@
         box-sizing: border-box;
       } 
       .slid {
-        position: absolute;
+        position: relative;
         width: 100%;
       }
       .slider {
           margin: 100px auto;
           
       }
-  
+      .slid h2 {
+        text-align: center;
+      }
       .slick-slide {
         margin: 0px 10px;
         height: 700px;
@@ -23,7 +29,6 @@
   
       .slick-slide img {
         width: 100%;
-  
       }
   
       .slick-prev:before,
@@ -36,10 +41,6 @@
         transition: all ease-in-out .5s;
         opacity: .5;
       }
-      
-      /* .slick-active {
-        opacity: .5;
-      } */
   
       .slick-current {
         opacity: 1;
@@ -49,7 +50,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Raleway');
     </style>
-    
 </head>
 <body>
     <div class="page-wrapper">
@@ -177,6 +177,10 @@
           </div>
           
           <div class="slid">
+            <h2>
+              <span>Discover our</span>
+              
+                <br>NEWS & EVENT HIGHLIGHTS</h2>
             <section class="center slider">
               <div>
                 <img src="https://images.unsplash.com/photo-1502912143929-50c8a1ce1f69?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af039990d3bc1161a1ea93ad7e467f6e&auto=format&fit=crop&w=1050&q=80">
@@ -195,9 +199,54 @@
               </div>
             </section>
           </div>
-          
-        
         </main>
+        <footer>
+          <div class="footer shop">
+            <ul>
+              <h3>Shop</h3>
+              <li><a href="">The Edit</a></li>
+              <li><a href="">New arrivals</a></li>
+              <li><a href="">Gifts</a></li>
+              <li><a href="">Trade</a></li>
+              <li><a href="">The Studio</a></li>
+            </ul>
+          </div> 
+
+          <div class="footer about">
+              <ul>
+                <h3>About us</h3>
+                <li><a href="">Visit us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Become a maker</a></li>
+              </ul>
+          </div>
+
+          <div class="footer help">
+            <ul>
+              <h3>Help & contact</h3>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">FAQ (shipping & return policy)</a></li>
+              <li><a href="">Cookies</a></li>
+              <li><a href="">Terms and Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer connect">
+            <h3>Stay connected</h3>
+            <form action="">
+              <input type="text" name="email" placeholder="Subscribe">
+              <button>Submit</button>
+            </form>
+            <div class="social">
+                <div class="icon tw"></div>
+                <div class="icon fb"></div>
+                <div class="icon goo"></div>
+                <div class="icon pin"></div>
+                <div class="icon in"></div>
+            </div>
+          </div>
+        </footer>
     </div>
 
 
@@ -240,4 +289,5 @@
       });
   </script>
 </body>
-  
+</html>
+ 
