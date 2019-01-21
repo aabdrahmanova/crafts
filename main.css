@@ -18,8 +18,6 @@
     background: url("https://images.unsplash.com/photo-1463082459669-fd1ca1692fea?ixlib=rb-0.3.5&s=c5c76553f649464a7a4208b64b15d5da&auto=format&fit=crop&w=1050&q=80") no-repeat top;
     background-size: cover;
     color: #fff;
-    
-  /*   font-family: 'Raleway', sans-serif; */
   }
   
   .page-header {
@@ -246,7 +244,8 @@
     padding-bottom: 80px;
     line-height: 50px;
   }
-  .categories span {
+  .categories span,
+  .slid span {
     font-style: italic;
     font-size: 1rem;
   }
@@ -395,6 +394,87 @@
   .box .btn:hover {
     color: #000;
   }
-  
-  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(179, 178, 178);
+    padding: 100px 100px 50px 0;
+  }
+  .footer h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+.footer ul li {
+  padding: 10px 0;
+  color: grey;
+  font-size: 10px;
+}
+.footer ul li a:hover {
+  color: #0da55a;
+}
+
+footer .connect {
+  padding-top: 10px;
+  width: 450px;
+}
+footer form {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+footer form input,
+footer form button {
+  border: none;
+  padding: 10px 15px 10px 0;
+}
+footer form button {
+  background-color: transparent;
+}
+footer form:hover {
+  border-bottom: 1px solid #0da55a;
+}
+footer form:hover button {
+  color: #0da55a;
+}
+footer form input {
+  width: 300px;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-self: center;
+  padding: 20px;
+}
+.social .icon {
+  background-image: url('http://demo.qodeinteractive.com/satellite/wp-content/themes/satellite/css/img/social_icons_sprite@2x.png');
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+.tw {
+  background-position: -14px -14px;
+}
+.fb {
+  background-position: -90px -14px;
+}
+.goo {
+  background-position: 518px -14px;
+}
+.pin {
+  background-position: -165px -14px;
+}
+.in {
+  background-position: -470px -14px;
+}
   
